@@ -3,8 +3,24 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 $color-initial: #fff !default
-$color-primary: #ffd400 !default
-$color-secondary: #dc9524 !default
-$color-tertiary: #f4f5f6 !default
+$color-primary: #a35bea !default
+$color-secondary: #ffd400 !default
+$color-tertiary: #dc9524 !default
 $color-quaternary: #d1d1d1 !default
 $color-quinary: #e1e1e1 !default
+
+
+\:root
+    --color-initial: #{$color-initial}
+    --color-primary: #{$color-primary}
+    --color-secondary: #{$color-secondary}
+    --color-tertiary: #{$color-tertiary}
+    --color-quaternary: #{$color-quaternary}
+    --color-quinary: #{$color-quinary}
+
+    --color-initial-dark: #{darken($color-initial, 5%)}
+    --color-primary-dark: #{darken($color-primary, 5%)}
+    --color-secondary-dark: #{darken($color-secondary, 5%)}
+    --color-tertiary-dark: #{darken($color-tertiary, 5%)}
+    --color-quaternary-dark: #{darken($color-quaternary, 5%)}
+    --color-quinary-dark: #{darken($color-quinary, 5%)}
