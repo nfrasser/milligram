@@ -3,7 +3,7 @@
   "version": "1.4.1-1",
   "description": "A minimalist CSS framework.",
   "homepage": "https://milligram.io",
-  "repository": "milligram/milligram",
+  "repository": "nfrasser/milligram",
   "license": "MIT",
   "author": "CJ Patoilo <cjpatoilo@gmail.com>",
   "main": "dist/milligram.css",
